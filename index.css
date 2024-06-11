@@ -1,0 +1,45 @@
+@font-face {
+    font-family: CustomFont;
+    src: url(ScoreFont.ttf);
+}
+
+body {
+    
+    margin: 0;
+    background-color: #1b244a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    height:2em;
+    font-family: CustomFont, sans-serif;
+    align-content: center;
+    text-align: center;
+    background-color:black;
+    color:#F43F5E;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+button{
+    width: 3em;
+    height: 3em;
+    font-family: CustomFont, sans-serif;
+    background-color: transparent;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(209,213,219);
+    border-radius: .5rem;
+    color: white;
+}
